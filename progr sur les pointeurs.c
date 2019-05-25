@@ -40,22 +40,6 @@ main()
     *p=3;
     printf("x=%d\n",x);
 
-
-    /*time_t t;
-    struct tm *tm;
-    time(&t);
-    puts(ctime(&t));  Thu Feb 27 11:26:36 1997
-    tm = localtime(&t);
-    puts(asctime(tm));  Thu Feb 27 11:26:36 1997
-    tm->tm_year = 94;
-    tm->tm_mday = 16;
-    tm->tm_mon = 10;
-    t = mktime(tm);
-    puts(ctime(&t));  Wed Nov 16 11:26:36 1994
-    t -= 20*86400;
-    puts(ctime(&t)); /* Thu Oct 27 11:26:36 1994 */
-
-
 }
 ET* lire()
 {
